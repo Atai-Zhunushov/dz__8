@@ -1,0 +1,46 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.modal {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: mediumaquamarine;
+    border-radius: 30px;
+}
+
+.h3 {
+    font-size: 70px;
+
+}
+.h4 {
+    font-size: 35px;
+    padding-bottom: 150px;
+}
+.restart {
+    display: block;
+    width: 200px;
+    height: 60px;
+    border: 3px solid teal;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+}
+
+.span{
+    font-size: 30px;
+    font-weight: 700;
+}
